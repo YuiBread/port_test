@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+body{
+    align-content: center;
+    background-color: #2D4356;
+    overflow: auto;
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 35%;
+    border: 4px solid #071952;
+    border-radius: 10px;
+    align-self: center;
+    margin-top: 8%;
+    background-color: #4F709C;
+}
+
+legend{
+    letter-spacing: 2px;
+    border-right: 5px solid #071952;
+    border-left: 5px solid #071952;
+    font-size: 25px;
+    color: white;
+    margin-left: 10px;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+}
+
+div.Main{
+    margin-top: 5px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    width: 100%;
+    background: #A6ACAF;
+    border: 5px solid #132C33;
+    border-radius: 10px;
+    padding: 5px;
+    outline: none;
+}
+
+.link{
+    float: right;
+    font-size: 11px;
+    margin-right: 2%;
+}
+.link2{
+    float: left;
+    font-size: 10px;
+    margin-left: 3%;
+}
+button.Submit{
+    width: 100%;
+    height: 40px;
+    margin-top: 5.5%;
+    border-radius: 20px;
+    cursor: pointer;
+}
+button:hover{
+    background: #1A5F7A;
+}
+
+button:active{
+    background: #073b76;
+}
+
+p{
+    text-align: center;
+    margin-top: 9%;
+    margin-bottom: 5%;
+}
+
+button.lain{
+    width: 100%;
+    height: 33px;
+    border-radius: 20px;
+    cursor: pointer;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.Beda{
+    margin-bottom: 15px;
+}
+.button.lain{
+    text-decoration: none;
+}
