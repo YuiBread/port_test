@@ -1,1 +1,267 @@
-# port_test
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <title>My Profile</title>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h2 class="logo">BreadThology</h2>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#editing">Editing</a></li>
+                    <li><a href="#tasks">Tasks</a></li>
+                    <li><a href="#galery">Galery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <h3>Portfolio</h3>
+                <h1><span>M. Raihan Tri Saputro</span></h1>
+                <!-- <h4>UI/UX Designer</h4> -->
+                <p>Mahasiswa Indraprasta PGRI dengan program studi <br>Teknik Informatika</p>
+            </div>
+        </div>
+    </div>
+
+<!-- scroll -->
+<div onclick="scrollToTop()" class="top-scroll">Home</div>
+<script>
+    function scrollToTop(){
+        window.scrollTo(0,0);
+    }
+</script>
+
+<!-- about me -->
+<div id="about">
+    <div class="container"></div>
+    <div class="row">
+        <div class="about-col-1">
+            <img src="photo/raihan.jpg">
+        </div>
+        <div class="about-col-2">
+            <h1 class="bouta">About Me</h1>
+            <p>Nama saya <span>muhammad raihan tri saputro</span>, lahir di Bekasi tanggal 26 April 2006.
+                Hobi saya mengedit dan mendesain Desain Grafis. saya juga memiliki Skill dalam menggunakan
+                Software Editing dan juga Programming.
+            </p>
+
+            <div class="tab-title">
+                <p class="tab-link active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-link" onclick="opentab('experience')">Experience</p>
+                <p class="tab-link" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-content active-tab" id="skills">
+                <ul>
+                    <li><span>Desain</span><br>Mendesain menggunakan PhotoShop, AfterEffect, Premier Pro</li>
+                    <li><span>Programming</span><br>Programming menggunakan Html & Css, Javascript, PHP, Pascal, Python</li>
+                </ul>
+            </div>
+            <div class="tab-content" id="experience">
+                <ul>
+                    <li><span>Program Kerja Lapangan (PKL)</span><br>Saya mengikuti Praktek Kerja Lapangan Dari SMKN 5 kota bekasi di CV.Apindo Brother Sukses</li>
+                </ul>
+            </div>
+            <div class="tab-content" id="education">
+                <ul>
+                    <li><span>Nurul Anwar 72</span><br>Tahun 2012-2017</li>
+                    <li><span>SMP Negeri 38 Kota Bekasi</span><br>Tahun 2018-2020</li>
+                    <li><span>SMK Negeri 5 Kota Bekasi</span><br>Software Enginnering = Tahun 2021-2024</li>
+                    <li><span>Universitas Indraprashasta</span><br>Software Enginnering = Tahun 2024-Continue</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Editing -->
+<div id="editing">
+<div class="editing">
+    <div class="container">
+        <h1 class="bouta">Photo Editing</h1>
+        <p>Saya memiliki beberapa hasil karya editing yang saya buat, diantaranya adalah sebagai berikut :</p>
+        <div class="editing-list">
+            <div class="editing-item">
+                <img src="photo/Blue Girl dark.png">
+                <h3>Sailor Girl</h3>
+                <p>A girl who really wanting wear Sailor Uniform</p>
+            </div>
+            <div class="editing-item">
+                <img src="photo/Makeine_tiarabasori.png">
+                <h3>Tiara Basori - Makeine</h3>
+                <p>Unknow encounter, perhaps gonna show up in season 2 of makeine</p>
+            </div>
+            <div class="editing-item">
+                <img src="photo/Komari_chika_makeine.png">
+                <h3>Komari Chika - Makeine</h3>
+                <p>She's been wanting to confess, but....</p>
+            </div>
+            <div class="editing-item">
+                <img src="photo/Makokawai1.png">
+                <h3>Mako Kawai - HibiMeshi</h3>
+                <p>College food culture club trying every food</p>
+            </div>
+            <div class="editing-item">
+                <img src="photo/Nijika_ijichi_v2.png">
+                <h3>BTR - Drummer</h3>
+                <p>C She is a second-year student and is the drummer of Kessoku Band.</p>
+            </div>
+            <div class="editing-item">
+            <img src="photo/Hitori_bocchi_v2.png">
+                <h3>BTR - Guitarist</h3>
+                <p>main protagonist of the manga and anime series Bocchi the Rock!. </p>
+            </div>
+            <div class="editing-item">
+                <img src="photo/Ryo_yamada.png">
+                <h3>BTR - Bassist</h3>
+                <p>She is a second-year and is the bassist of Kessoku band</p>
+            </div>
+            <div class="editing-item">
+                <img src="photo/Kita_ikuyo_v2.png">
+                <h3>BTR - Vocalist</h3>
+                <p> She is a first-year and is the lead vocalist for Kessoku Band.</p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<div id="editing">
+<div class="editing">
+    <div class="container">
+        <h1 class="bouta">Video Editing</h1>
+        <p>Saya memiliki beberapa hasil karya video editing yang saya buat, diantaranya adalah sebagai berikut :</p>
+        <div class="videoediting-list">
+            <div class="videoediting-item">
+                <!-- <video autoplay loop muted>
+                    <source src="photo/tstvid.mp4" type="video/mp4">
+                </video>
+                <video autoplay loop muted>
+                    <source src="photo/tstvid.mp4" type="video/mp4">
+                </video>
+                <video autoplay loop muted>
+                    <source src="photo/tstvid.mp4" type="video/mp4">
+                </video>
+                <video autoplay loop muted>
+                    <source src="photo/tstvid.mp4" type="video/mp4">
+                </video> -->
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+<!-- Tasks -->
+<div id="tasks">
+    <div class="container">
+        <h2 class="bouta">Tasks</h2>
+        <div class="tasks-list">
+            <div>
+                <h3>Tugas Login Form</h3>
+                <p>Login Form Sheet<br>Tugas ke 1</p>
+                    <a href="login1/testlogin.html">Lihat</a>
+            </div>
+            <div>
+                <h3>Koneksi Buku Tamu</h3>
+                <p>Buku Tamu Sheet<br>Tugas Ke 2</p>
+                    <a href="C:\xampp\htdocs\Data_buku">Lihat</a>
+            </div>
+            <div>
+                <h3>Uji Kompetensi 1</h3>
+                <p>Uji Kompetensi 1<br>Tugas ke 3</p>
+                    <a href="https://yuibread.github.io/PwebEssay/" class="both">Essay</a>
+                    <a href="https://yuibread.github.io/PwebPG/" class="both">PG</a>
+            </div>
+            <div>
+                <h3>Uji Kompetensi 2</h3>
+                <p>Uji Kompetensi 2<br>Tugas ke 4</p>
+                    <a href="https://yuibread.github.io/Jobsheet_Pweb/">Lihat</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- Galery -->
+<div id="galery">
+    <div class="container">
+        <h2 class="bouta">Social Media</h2>
+        <div class="work-list">
+            <div class="work">
+                <a href="https://www.instagram.com/yui_bread_desu/">
+                    <h3>Instagram</h3>
+                </a>
+            </div>
+            <div class="work">
+                <a href="https://www.facebook.com/groups/294651395596670/user/100037330801449"><h3>Facebook</h3></a>
+            </div>
+            <div class="work">
+                <a href="https://id.pinterest.com/mraihantrisptr/"><h3>Pinterest</h3></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Contact -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                    <h1 class="bouta">Contact Me</h1>
+                    <p><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><style>svg{fill:#ff8800}</style><path d="M498.1 5.6c10.1 7 15.4 19.1 13.5 31.2l-64 416c-1.5 9.7-7.4 18.2-16 23s-18.9 5.4-28 1.6L284 427.7l-68.5 74.1c-8.9 9.7-22.9 12.9-35.2 8.1S160 493.2 160 480V396.4c0-4 1.5-7.8 4.2-10.7L331.8 202.8c5.8-6.3 5.6-16-.4-22s-15.7-6.4-22-.7L106 360.8 17.7 316.6C7.1 311.3 .3 300.7 0 288.9s5.9-22.8 16.1-28.7l448-256c10.7-6.1 23.9-5.5 34 1.4z"/></svg>
+                        mraihantrisptr@gmail.com</p>
+                    <p><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><style>svg{fill:#ff9500}</style><path d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"/></svg>
+                        +62 858 1762 7155</p>
+                <div class="icon">
+                    <!-- facebook -->
+                    <a href=""><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><style>svg{fill: white}</style><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg></a>
+                    <!-- pinterest -->
+                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 496 512"><style>svg{fill: white}</style><path d="M496 256c0 137-111 248-248 248-25.6 0-50.2-3.9-73.4-11.1 10.1-16.5 25.2-43.5 30.8-65 3-11.6 15.4-59 15.4-59 8.1 15.4 31.7 28.5 56.8 28.5 74.8 0 128.7-68.8 128.7-154.3 0-81.9-66.9-143.2-152.9-143.2-107 0-163.9 71.8-163.9 150.1 0 36.4 19.4 81.7 50.3 96.1 4.7 2.2 7.2 1.2 8.3-3.3.8-3.4 5-20.3 6.9-28.1.6-2.5.3-4.7-1.7-7.1-10.1-12.5-18.3-35.3-18.3-56.6 0-54.7 41.4-107.6 112-107.6 60.9 0 103.6 41.5 103.6 100.9 0 67.1-33.9 113.6-78 113.6-24.3 0-42.6-20.1-36.7-44.8 7-29.5 20.5-61.3 20.5-82.6 0-19-10.2-34.9-31.4-34.9-24.9 0-44.9 25.7-44.9 60.2 0 22 7.4 36.8 7.4 36.8s-24.5 103.8-29 123.2c-5 21.4-3 51.6-.9 71.2C65.4 450.9 0 361.1 0 256 0 119 111 8 248 8s248 111 248 248z"/></svg></a>
+                    <!-- instagram -->
+                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><style>svg{fill: white}</style><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg></a>
+                    <!-- linkedin -->
+                    <a href=""><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><style>svg{fill: white}</style><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg></a>
+                </div>
+            </div>
+
+            <div class="contact-right">
+                <input type="text" name="text" required placeholder="Nama Kamu...">
+                <input type="email" name="email" required placeholder="Alamat email Kamu...">
+                <textarea name="pesan" rows="6" required placeholder="Pesan kamu.. .v."></textarea>
+                <button class="submit">Submit</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- About me Script -->
+<script>
+    var tablinks = document.getElementsByClassName("tab-link");
+    var tabcontents = document.getElementsByClassName("tab-content");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+
+
+</body>
+</html>
